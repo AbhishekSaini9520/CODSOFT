@@ -1,0 +1,50 @@
+/* Set the background color */
+body {
+    background-color: rgb(124 224 46); /* light green */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+}
+
+/* Style the container */
+.tribute-container {
+    text-align: center;
+    color: #000;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #23c714;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the heading */
+.tribute-container h1 {
+    font-size: 2.5em;
+    color: #000;
+    text-shadow: 2px 2px #999;
+}
+
+.tribute-container h2 {
+    font-size: 2.5em;
+    color: #000;
+    text-shadow: 2px 2px #999;
+}
+
+/* Style the image */
+.tribute-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the paragraph */
+.tribute-container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-top: 20px;
+}
